@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Counter app</title>
+  </head>
+  <body class="cold">
+    <div class="container">
+      <div class="block">
+        <h1 type="text" id="result">0</h1>
+        <div class="block2">
+          <button
+            id="btn1"
+            onclick="minus3(); decrementCounter(); clean()"
+            class="cold"
+          >
+            -
+          </button>
+          <button id="btn3" onclick="startSpin(); clean()">
+            <i class="fa fa-repeat" aria-hidden="true"></i>
+          </button>
+          <button id="btn2" onclick="plus3(); incrementCounter()" class="fire">
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+       <h1 class="h1">counter <br> app</h1>
+
+    <script src="./script.js "></script>
+  </body>
+</html>
